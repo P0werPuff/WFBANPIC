@@ -87,7 +87,7 @@ namespace WFBANPIC
             };
             st.Children.Add(Soonputru_btn);
             Content = st;
-            Soonputru_btn.Clicked += Soonputru_btn_Clicked;
+            Soonputru_btn.Clicked += Soonputru_btn_Clicked; //
         }
 
         private async void bridges_btn_Clicked(object sender, EventArgs e)
